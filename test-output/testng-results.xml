@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="44678" started-at="2020-06-18T14:32:46Z" finished-at="2020-06-18T14:33:31Z">
+    <groups>
+    </groups>
+    <test name="Chrome_Test" duration-ms="16779" started-at="2020-06-18T14:32:46Z" finished-at="2020-06-18T14:33:03Z">
+      <class name="docker_basic.Chrome_docker">
+        <test-method status="PASS" signature="test_chrome_docker()[pri:0, instance:docker_basic.Chrome_docker@f2f2cc1]" name="test_chrome_docker" duration-ms="16751" started-at="2020-06-18T20:02:46Z" finished-at="2020-06-18T20:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_chrome_docker -->
+      </class> <!-- docker_basic.Chrome_docker -->
+    </test> <!-- Chrome_Test -->
+    <test name="Firefox_Test" duration-ms="44678" started-at="2020-06-18T14:32:46Z" finished-at="2020-06-18T14:33:31Z">
+      <class name="docker_basic.Firefox_docker">
+        <test-method status="PASS" signature="test_firefox_docker()[pri:0, instance:docker_basic.Firefox_docker@20d3d15a]" name="test_firefox_docker" duration-ms="44652" started-at="2020-06-18T20:02:46Z" finished-at="2020-06-18T20:03:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_firefox_docker -->
+      </class> <!-- docker_basic.Firefox_docker -->
+    </test> <!-- Firefox_Test -->
+  </suite> <!-- Suite -->
+</testng-results>
