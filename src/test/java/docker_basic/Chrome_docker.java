@@ -13,7 +13,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
 public class Chrome_docker {
-	public String remote_url = "http://localhost:4545/wd/hub";
+	public String remote_url = "http://localhost:4444/wd/hub";
 	public String url = "https://www.selenium.dev/";
 	
 	@Test
